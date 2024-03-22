@@ -116,6 +116,23 @@ namespace OpenXmlPowerTools
                 return result.Substring(0, 1).ToUpper() +
                     result.Substring(1);
             }
+            if (numFmt == "russianUpper")
+            {
+                string a = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+                int c = (levelNumber - 1) / 33;
+                int n = (levelNumber - 1) % 33;
+                char x = a[n];
+                return "".PadRight(c + 1, x);
+            }
+            if (numFmt == "russianLower")
+            {
+                string a = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+                int c = (levelNumber - 1) / 33;
+                int n = (levelNumber - 1) % 33;
+                char x = a[n];
+                return "".PadRight(c + 1, x);
+            }
+
             return null;
         }
     }
