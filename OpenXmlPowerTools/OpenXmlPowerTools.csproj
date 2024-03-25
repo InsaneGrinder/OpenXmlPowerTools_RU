@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net45;net46;netstandard2.0</TargetFrameworks>
-    <PackageId>open-xml-powertools-ru-1</PackageId>
-    <Title>OpenXmlPowerTools-PS</Title>
+    <PackageId>open-xml-powertools-ru-2</PackageId>
+    <Title>OpenXmlPowerToolsRU</Title>
     <Authors>PurpleScythe, Eric White</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/OfficeDev/Open-Xml-PowerTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/InsaneGrinder/OpenXmlPowerTools_RU</RepositoryUrl>
-    <Product>$(AssemblyName)-RU</Product>
+    <Product>$(AssemblyName)RU</Product>
     <Description>fork from https://github.com/OfficeDev/Open-Xml-PowerTools
 added support for numbering format in the Russian alphabet (russianUpper, russianLower)</Description>
-    <AssemblyName>$(MSBuildProjectName)-RU</AssemblyName>
-    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))-RU</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName)RU</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))RU</RootNamespace>
     <Company> </Company>
   </PropertyGroup>
 
